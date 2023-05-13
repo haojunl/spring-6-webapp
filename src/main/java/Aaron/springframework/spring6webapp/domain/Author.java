@@ -2,6 +2,7 @@ package Aaron.springframework.spring6webapp.domain;
 
 import jakarta.persistence.*;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -13,8 +14,12 @@ public class Author {
     private String firstName;
     private String lastName;
 
-    @ManyToMany(mappedBy = "authors")
-    private Set<Book> books;
+    /*@ManyToMany 注解来定义一个多对多的关联关系。
+    其中 mappedBy 属性指定了对方类中与之对应的属性名，
+    这里是 Book 中的 authors。这意味着在数据库中，
+    这两个表之间的关联关系由 Book 维护。*/
+    @ManyToMany(mappedBy = "authors")//authors from Book.class
+    private Set<Book> books = new HashSet<>();//saved all books wrote by author
     public Set<Book> getBooks() {
         return books;
     }
@@ -22,8 +27,6 @@ public class Author {
     public void setBooks(Set<Book> books) {
         this.books = books;
     }
-
-
 
     public Long getId() {
         return id;

@@ -1,4 +1,4 @@
-package Aaron.springframework.spring6webapp.domain;
+package aaron.springframework.spring6webapp.domain;
 
 import jakarta.persistence.*;
 

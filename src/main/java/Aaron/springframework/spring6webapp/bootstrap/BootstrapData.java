@@ -1,11 +1,11 @@
-package Aaron.springframework.spring6webapp.bootstrap;
+package aaron.springframework.spring6webapp.bootstrap;
 
-import Aaron.springframework.spring6webapp.domain.Author;
-import Aaron.springframework.spring6webapp.domain.Book;
-import Aaron.springframework.spring6webapp.domain.Publisher;
-import Aaron.springframework.spring6webapp.repositories.AuthorRepository;
-import Aaron.springframework.spring6webapp.repositories.BookRepository;
-import Aaron.springframework.spring6webapp.repositories.PublisherRepository;
+import aaron.springframework.spring6webapp.domain.Author;
+import aaron.springframework.spring6webapp.domain.Book;
+import aaron.springframework.spring6webapp.domain.Publisher;
+import aaron.springframework.spring6webapp.repositories.AuthorRepository;
+import aaron.springframework.spring6webapp.repositories.BookRepository;
+import aaron.springframework.spring6webapp.repositories.PublisherRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

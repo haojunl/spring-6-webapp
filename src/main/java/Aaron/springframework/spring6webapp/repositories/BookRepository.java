@@ -1,7 +1,7 @@
-package Aaron.springframework.spring6webapp.repositories;
+package aaron.springframework.spring6webapp.repositories;
 
 
-import Aaron.springframework.spring6webapp.domain.Book;
+import aaron.springframework.spring6webapp.domain.Book;
 import org.springframework.data.repository.CrudRepository;
 
 public interface BookRepository extends CrudRepository<Book, Long> {

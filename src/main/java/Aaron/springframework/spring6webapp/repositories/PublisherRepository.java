@@ -1,6 +1,6 @@
-package Aaron.springframework.spring6webapp.repositories;
+package aaron.springframework.spring6webapp.repositories;
 
-import Aaron.springframework.spring6webapp.domain.Publisher;
+import aaron.springframework.spring6webapp.domain.Publisher;
 import org.springframework.data.repository.CrudRepository;
 
 /**
